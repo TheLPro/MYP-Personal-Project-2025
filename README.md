@@ -3,7 +3,7 @@ A chatbot capable of reading PDF files, and giving summaries, answering question
 
 ## Stack:
 **Backend**:
-Language: Python
+\nLanguage: Python
 Libraries:
 - PyPDF2
 - pdf2image
