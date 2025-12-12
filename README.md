@@ -4,22 +4,21 @@ A chatbot capable of reading PDF files, and giving summaries, answering question
 ## Stack:
 **Backend**:
 <br>Language: Python
-Libraries:
-- PyPDF2
-- pdf2image
-- pytesseract
-- nltk
-- spacy
-- sentence-transformers
+<br>Libraries:
+- streamlit
+- pdf_reader (self-made)
+- sentence_transformers
 - faiss
-- httpx
-- pydantic
-- uvicorn
+- numpy
+- PyPDF2
+- google
+- google.genai
+- whisper
+- fpdf
 
-LLM Api: OpenAI API or Hugging Face Inference API
-DB: SQLite
+LLM Api: Google Gemini
 
 **Frontend**:
-Framework: Next.js
-UI: Tailwind CSS
-API Handling: Axios, React Query
+Framework: Streamlit + JS
+UI: Streamlit + CSS
+API Handling: Streamlit
